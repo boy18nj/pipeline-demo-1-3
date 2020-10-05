@@ -9,6 +9,7 @@ pipeline {
                chmod +x test.sh
                ./test.sh
             '''
+        sh 'This is Hurray'
       }
     }
 
